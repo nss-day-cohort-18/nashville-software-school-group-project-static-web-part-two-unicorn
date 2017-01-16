@@ -28,7 +28,7 @@ HEADER
 ****************************/
 
 nav {
-    background-color: #C25454;
+    background-color: #cb77dd;
     display: block;
     height: 5%;
     padding: 0.25%;
@@ -49,7 +49,7 @@ nav a {
 }
 
 nav a.selected, nav a:hover {
-  color: #666666;
+  color: #fff24a;
 }
 
 #main-head {
