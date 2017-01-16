@@ -57,7 +57,7 @@ nav a.selected, nav a:hover {
     text-align: center;
     color: #EDEDED;
     height: 300px;
-    background-image: url("../images/sunrisefield-copy.jpg");
+    background-image: url("../images/cloud-header.jpg");
     backgrounds-blend-mode: screen;
     background-repeat: no-repeat;
 }
