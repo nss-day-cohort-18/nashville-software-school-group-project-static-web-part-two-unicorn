@@ -13,8 +13,12 @@ body {
 }
 /* yellow h1 color */
 h1 {
-    color: #fff24a;
+    color: #82afff;
     font-weight: bold;
+    margin-top: 0;
+    padding-top: 3em;
+    text-shadow: black 0.1em 0.1em 0.2em
+
 }
 /* pink h4 color */
 h4 {
@@ -31,13 +35,26 @@ h4 {
 HEADER
 ****************************/
 
-.background-image  {
-    width: 1000px;
-    height: 350px;
-    background-image: url('../images/unicorn-cat.jpg');
-    margin-left: 20%; /* center aligns header */
+  div#main-head {
+    clear: both;
+    text-align: center;
+    color: white;
+    height: 300px;
+    background-image: url("../images/glitter-banner.jpg");
+    backgrounds-blend-mode: screen;
     background-repeat: no-repeat;
+    width: 100%;
+    }
+
+body.background-image{
+    width: 100%;
+
 }
+.background-image  {
+    height: 300;
+    background-image: url('../images/glitter-banner.png');
+    background-repeat: no-repeat; 
+} 
 
 #main-head {
     font-weight: bold;
@@ -52,7 +69,7 @@ nav {
     display: block;
     text-align: center;
     height: 5%;
-    margin-right: 35%;
+    background-color: #cb77dd;
 
 }
 
@@ -64,7 +81,10 @@ nav li {
 }
 
 nav ul {
-    margin-right: 8%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
 }
 
 nav a {
