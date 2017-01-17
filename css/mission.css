@@ -1,20 +1,9 @@
 
 
-	/*
+/* centers paragraphs in page */
+#company-info p {
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
 
-	h2, h5 {
-		text-align: center;
-		padding-top: 15px;
-	}
-
-	img{
-		display: block;
-		margin: 0 auto;
-		height: 600px;
-	}
-
-	article#company-info {
-		width: 70%
-		margin: 0 auto;
-		padding: 0 10%;
-	}*/
