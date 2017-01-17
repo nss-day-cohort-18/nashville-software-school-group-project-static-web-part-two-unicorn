@@ -1,0 +1,13 @@
+/* kitty photo */
+#kittycat {
+	width: 400px;
+	height: 400px;
+	text-align: center;
+}
+
+/* centers paragraphs in page */
+#company-info p {
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
