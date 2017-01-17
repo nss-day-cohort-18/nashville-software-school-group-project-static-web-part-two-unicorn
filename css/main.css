@@ -2,70 +2,89 @@
 GENERAL
 ****************************/
 
-* {
-    font-family: 'Source Sans Pro', 'Lato', sans-serif;
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: light;
+    color: #ef429e;
+    background: #fff24a;
+    text-align: center;
 }
+/* yellow h1 color */
+h1 {
+    color: #fff24a;
+    font-weight: bold;
+}
+/* pink h4 color */
+h4 {
+    color: #ef429e;
+    font-weight: bold;
+}
+/* adds space between lines in paragraphs */
+ p {
+    line-height: 25px;
+ }
 
-h1,
-h2 {
-    margin-top: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-.clear {
-    clear: both;
-}
-
-p {
-    text-align: justify;
-}
 
 /****************************
 HEADER
 ****************************/
 
+.background-image  {
+    width: 1000px;
+    height: 350px;
+    background-image: url('../images/unicorn-cat.jpg');
+    margin-left: 20%; /* center aligns header */
+    background-repeat: no-repeat;
+}
+
+#main-head {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0%;
+}
+
+
+/* main nav */
+
 nav {
-    background-color: #cb77dd;
     display: block;
+    text-align: center;
     height: 5%;
-    padding: 0.25%;
+    margin-right: 35%;
+
 }
 
 nav li {
     list-style: none;
     display: inline-block;
-    margin: 1%;
+    padding: 2%;
+
 }
 
 nav ul {
-
+    margin-right: 8%;
 }
 
 nav a {
-    color: #EDEDED;
+    color: #fff24a;
+    border: 2px solid #ef429e;
+    font-weight: bold;
+    font-size: 16px;
 }
+
+/* links */
+
+a {
+    text-decoration: none;
+}
+
 
 nav a.selected, nav a:hover {
-  color: #fff24a;
+  color: #82afff;
+  border: 2px solid #cb77dd;
 }
-
-#main-head {
-    clear: both;
-    text-align: center;
-    color: #EDEDED;
-    height: 300px;
-    background-image: url("../images/unicorn-cat.jpg");
-    backgrounds-blend-mode: screen;
-    background-repeat: no-repeat;
-}
-
-h1 {
-    padding-top: 10%;
-}
-
 
 
 /****************************
@@ -84,7 +103,6 @@ FOOTER
     height: 5%;
     margin-bottom: 0;
     text-align: center;
-
 }
 
 #footer-ul {
@@ -102,7 +120,7 @@ FOOTER
 }
 
 #copyrightText {
-    color: #6D6D6D;
+    color: #82afff;
     text-align: center;
-    font-size: .75em;
+    font-size: 2em;
 }
