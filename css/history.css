@@ -8,18 +8,21 @@
 }
 
 #double-rainbow {
+	margin: 2em 0 -1.6em 0;
 	text-align: center;
+	color: #ef429e;
 	}
 
 #main-content{
-	margin: auto;
+	margin: 0;
 	padding: 0 0 0 5em;
+
 }
 
 #history-img img {
 	display: block;
-	margin: 75px 300px 0 0 ;
-	padding: 0 0 15% 0;
+	margin: 3em 20% 0 0 ;
+	padding: 1.5em 0 15% 0;
 	border-radius: 50%;
 	max-width: 30%;
 	max-height: 30%;
@@ -27,8 +30,8 @@
 }
 
 #history-p {
-	margin: 0 0 0 9em;
-	padding: 150px 0 0 5%;
+	margin: 0 0 0 7em;
+	padding: 5.5em 0 0 5%;
 	clear: left;
 	max-width: 33%;
 	text-align: right;
