@@ -1,0 +1,42 @@
+#body {
+	background-color: #82afff;
+}
+
+#history-wrapper {
+	margin: 0;
+	padding: 0;
+}
+
+#double-rainbow {
+	text-align: center;
+
+}
+
+#main-content{
+	margin: auto;
+	padding: 0 0 0 5em;
+}
+
+#history-img img {
+	display: block;
+	margin: 75px 300px 0 0 ;
+	padding: 0 0 15% 0;
+	border-radius: 50%;
+	max-width: 30%;
+	max-height: 30%;
+	float: right;
+}
+
+#history-p {
+	margin: 0 0 0 9em;
+	padding: 150px 0 0 5%;
+	clear: left;
+	max-width: 33%;
+	text-align: right;
+	float: left;
+}
+
+footer {
+	clear: both;
+	margin: auto;
+}
