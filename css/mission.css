@@ -23,3 +23,9 @@
 		margin: 0 auto;
 		height: 600px;
 	}
+
+	article#company-info {
+		width: 70%
+		margin: 0 auto;
+		padding: 0 10%;
+	}
