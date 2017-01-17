@@ -1,6 +1,53 @@
-/* header style */
-.background-image {
-	width: 100%;
-	height: 300px;
-	background-image: url('../images/cloud-header.jpg');
+
+/* employee images on employee page */
+
+img#zak, img#casey, img#bri, img#miri {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  max-height: 400px;
 }
+/* gives padding to main content of page */
+#employee-info {
+  padding-right: 20%
+  padding-left: 20%;
+}
+
+#employee-info h2 {
+	font-size: 35px;
+	font-weight: bold;
+  padding: 5% 20% 5% 20%;
+}
+/* centers paragraphs in page */
+p {
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+/* centers quote heading */
+h3 {
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
