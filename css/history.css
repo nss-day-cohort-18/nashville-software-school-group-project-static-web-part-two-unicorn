@@ -8,12 +8,15 @@
 }
 
 #double-rainbow {
+	margin: 2em 0 -1.6em 0;
 	text-align: center;
+	color: #ef429e;
 	}
 
 #main-content{
-	margin: auto;
+	margin: 0;
 	padding: 0 0 0 5em;
+
 }
 
 #history-img img {
