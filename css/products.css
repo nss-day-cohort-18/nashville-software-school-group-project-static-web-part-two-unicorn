@@ -1,0 +1,47 @@
+#main-head {
+  background-image: url("../images/unicorn-cat.jpg");
+  backgrounds-blend-mode: screen;
+  background-repeat: no-repeat;
+}
+
+#main {
+  width: 75%;
+  margin: auto;
+}
+
+/*h2 {
+  text-align: center;
+}*/
+
+div#parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.prod-pic {
+  width: 60%;
+  height: 40%;
+  border-radius: 25%;
+}
+
+.products {
+  text-align: center;
+  padding-top: 1%;
+  border: 3px solid #ef429e;
+  border-radius: 8px;
+  width: 30%;
+  height: 25em;
+  margin-bottom: 1.5em;
+  background-color: #fff24a;
+}
+
+.products h2 {
+  padding-top: 1em;
+  color: #82afff;
+}
+
+.products p {
+ padding: 0 5%;
+ color: #f458ff;
+}
